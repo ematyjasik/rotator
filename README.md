@@ -33,4 +33,6 @@ On the X230t, the display output should be "LVDS-1". You can find it
 in niri's config.kdl within output {}.
 You may also uncomment left-handed, if you're like me.
 
-Finally, place .screenstate in your $HOME directory. 
+Finally, place .screenstate in your $HOME directory, and run:
+
+chmod +x rotator && cp rotator.sh /bin/rotator
