@@ -48,7 +48,8 @@ help() {
 	echo "in niri's config.kdl within output {}."
 	echo "You may also uncomment left-handed, if you're like me."
 	echo
-	echo "Finally, place .screenstate into your home directory."
+	echo "Finally, place .screenstate into your home directory and run:"
+	echo "chmod +x rotator.sh && cp rotator.sh /bin/rotator"
 }
 
 # This function will rotate the screen by 90 degrees with intelligent logic.
