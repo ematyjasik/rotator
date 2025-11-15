@@ -1,3 +1,4 @@
+From rotator -h: 
 
 This is the Thinkpad Tablet Screen Rotation Script.
 If you have reached this menu, you're likely wondering how to configure
