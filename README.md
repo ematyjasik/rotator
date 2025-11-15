@@ -13,6 +13,7 @@ use $ wev | grep 'sym' to identify keycodes within Wayland.
 Once you've identified your keycodes, configure niri's config.kdl with:
 
 XF86RotateWindows { spawn-sh "rotator -v"; }
+
 XF86TaskPane { spawn-sh "rotator -f"; }
 
 To appropriately map tablet input, add this to your config.kdl under the
