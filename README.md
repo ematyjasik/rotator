@@ -19,10 +19,10 @@ XF86TaskPane { spawn-sh "rotator -f"; }
 To appropriately map tablet input, add this to your config.kdl under the
 trackpoint {} function, per <niri/docs/wiki/Configuration-Input.md>:
 
-tablet {
-  // off
-  map-to-output ""
-  // left-handed
+tablet {\n
+  // off\n
+  map-to-output ""\n
+  // left-handed\n
 }
 
 On the X230t, the display output should be "LVDS-1". You can find it
