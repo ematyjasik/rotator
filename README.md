@@ -13,7 +13,6 @@ use $ wev | grep 'sym' to identify keycodes within Wayland.
 Once you've identified your keycodes, configure niri's config.kdl with:
 
 XF86RotateWindows { spawn-sh "rotator -v"; }
-
 XF86TaskPane { spawn-sh "rotator -f"; }
 
 To appropriately map tablet input, add this to your config.kdl under the
@@ -28,3 +27,5 @@ tablet {
 On the X230t, the display output should be "LVDS-1". You can find it
 in niri's config.kdl within output {}.
 You may also uncomment left-handed, if you're like me.
+
+Finally, place .screenstate in your $HOME directory. 
