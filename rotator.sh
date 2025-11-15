@@ -47,6 +47,8 @@ help() {
 	echo "On the X230t, the display output should be \"LVDS-1\". You can find it"
 	echo "in niri's config.kdl within output {}."
 	echo "You may also uncomment left-handed, if you're like me."
+	echo
+	echo "Finally, place .screenstate into your home directory."
 }
 
 # This function will rotate the screen by 90 degrees with intelligent logic.
