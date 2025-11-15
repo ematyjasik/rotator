@@ -35,4 +35,4 @@ You may also uncomment left-handed, if you're like me.
 
 Finally, place .screenstate in your $HOME directory, and run:
 
-chmod +x rotator && cp rotator.sh /bin/rotator
+chmod +x rotator.sh && cp rotator.sh /bin/rotator
